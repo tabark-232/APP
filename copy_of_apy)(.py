@@ -7,25 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1DjiPoc-98h7GA0I4ypePE75UIRjK0WWf
 """
 
-# Follow these steps:
-!python3 -m venv my_app_env
-!source my_app_env/bin/activate
-!pip install numpy
-!pip install gensim
-# You can also install any other dependencies needed for your project.
-
-!pip show numpy
-!pip show gensim
-!pip show scipy
-
-!pip install --upgrade numpy  # Upgrade NumPy first
-!pip install --upgrade --force-reinstall gensim # Reinstall Gensim
-
-!pip install --upgrade scipy
-
-!pip install --upgrade numpy  # Upgrade NumPy if needed
-!pip install --upgrade --force-reinstall gensim  # Reinstall Gensim
-
 """#Import Necessary Libraries"""
 
 import pandas as pd
